@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="score">
+                <div class="computer-score">
+                    <p id="computer-score">Computer Score: 0</p>
+                </div>
+                <div class="you-score">
+                    <p id="you-score">You Score: 0</p>
+                </div>
+            </div>
+            <div class="sign-buttons">
+                <button id="rock"><i class="fa-solid fa-hand-back-fist"></i></button>
+                <button id="paper"><i class="fa-solid fa-hand-paper"></i></button>
+                <button id="scissor"><i class="fa-solid fa-hand-scissors"></i></button>
+            </div>
+            <div class="result">
+                <h5 id="you-win" style="display: none;">You Win</h5>
+                <h5 id="computer-wins" style="display: none;">You Lose</h5>
+                <div class="you-choose">
+                    <p id="you-choose"></p>
+                </div>
+                <div class="computer-choose">
+                    <p id="computer-choose"></p>
+                </div>
+            </div>            
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
